@@ -1,22 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Ethan Diaz's Portfolio</h1>
+        <p>Welcome to my portfolio website built with React!</p>
+        
+        <section>
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <strong>FIRE Calculator</strong>: A web app to calculate the timeline for financial independence.
+              <a href="https://github.com/ethandCS/fire-calculator">View Project</a>
+            </li>
+            <li>
+              <strong>Another Project</strong>: Description of another cool project.
+              <a href="https://github.com/ethandCS/automated-email-checker.git">View Project</a>
+            </li>
+          </ul>
+        </section>
       </header>
     </div>
   );
