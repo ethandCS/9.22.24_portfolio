@@ -13,7 +13,7 @@ function App() {
           <ul>
             <li>
               <strong>FIRE Calculator</strong>: A web app to calculate the timeline for financial independence.
-              <a href="https://github.com/ethandCS/fire-calculator">View Project</a>
+              <a href="https://github.com/ethandCS/FIRE_Calculator.git">View Project</a>
             </li>
             <li>
               <strong>Another Project</strong>: Description of another cool project.
