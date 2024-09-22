@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: forestgreen; /* Changed background color to forest green */
-  color: white; /* Make the text white for contrast */
+  background-color: #478d6b; /* Updated background color */
+  color: white; /* Keep text white for contrast */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ ul {
 }
 
 a {
-  color: #00ccff; /* Change link color to a bright blue */
+  color: #00ccff; /* Keep link color bright blue for contrast */
   text-decoration: none;
 }
 
