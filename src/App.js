@@ -13,7 +13,7 @@ function App() {
           <ul>
             <li>
               <strong>Automated Email Checker</strong>: Python program to help me check my daily incoming Gmail.
-              <a href="https://github.com/ethandCS/automated-email-checker" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ethandCS/Automated_Email_Checker" target="_blank" rel="noopener noreferrer">
                 View Project
               </a>
             </li>
