@@ -13,11 +13,11 @@ function App() {
           <ul>
             <li>
               <strong>FIRE Calculator</strong>: A web app to calculate the timeline for financial independence.
-              <a href="https://github.com/ethandCS/FIRE_Calculator.git">View Project</a>
+              <a href="https://github.com/ethandCS/FIRE_Calculator">View Project</a>
             </li>
             <li>
-              <strong>Another Project</strong>: Description of another cool project.
-              <a href="https://github.com/ethandCS/automated-email-checker.git">View Project</a>
+              <strong>Automated-Email_Checker</strong>: Python program to help me check my daily incoming gmail.
+              <a href="https://github.com/ethandCS/automated-email-checker">View Project</a>
             </li>
           </ul>
         </section>
