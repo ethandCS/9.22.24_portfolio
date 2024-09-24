@@ -7,13 +7,16 @@ function App() {
       <header className="App-header">
         <h1>Ethan Diaz's Portfolio</h1>
         <p>Welcome to my portfolio website built with React!</p>
-        
+
+        {/* Add your profile picture */}
+        <img src="/images/profilepic.jpg" alt="Ethan Diaz" className="profile-picture" />
+
         <section>
           <h2>Projects</h2>
           <ul>
             <li>
               <strong>Automated Email Checker</strong>: Python program to help me check my daily incoming Gmail.
-              <a href="https://github.com/ethandCS/Automated_Email_Checker" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ethandCS/automated-email-checker" target="_blank" rel="noopener noreferrer">
                 View Project
               </a>
             </li>
@@ -55,6 +58,41 @@ function App() {
               </a>
             </li>
           </ul>
+        </section>
+
+        {/* My Shelf Section */}
+        <section>
+          <h2>My Shelf</h2>
+          <p>Here are some of my favorite books and albums that I'm enjoying right now:</p>
+          <div className="shelf">
+            {/* Three Books */}
+            <div className="shelf-item">
+              <img src="/images/intelligentinvestor.jpg" alt="The Intelligent Investor" />
+              <p>The Intelligent Investor</p>
+            </div>
+            <div className="shelf-item">
+              <img src="/images/lastlecture.jpg" alt="The Last Lecture" />
+              <p>The Last Lecture</p>
+            </div>
+            <div className="shelf-item">
+              <img src="/images/pyschofmoney.jpg" alt="The Psychology of Money" />
+              <p>The Psychology of Money</p>
+            </div>
+
+            {/* Three Music Albums */}
+            <div className="shelf-item">
+              <img src="/images/graduation.jpg" alt="Graduation" />
+              <p>Graduation</p>
+            </div>
+            <div className="shelf-item">
+              <img src="/images/thenewabnormal.jpg" alt="The New Abnormal" />
+              <p>The New Abnormal</p>
+            </div>
+            <div className="shelf-item">
+              <img src="/images/thequeenisdead.jpg" alt="The Queen Is Dead" />
+              <p>The Queen Is Dead</p>
+            </div>
+          </div>
         </section>
       </header>
     </div>
