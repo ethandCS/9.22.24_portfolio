@@ -72,34 +72,34 @@ function App() {
         {/* My Shelf Section */}
         <section>
           <h2>My Shelf</h2>
-          <p>Here are some of my favorite books and albums that I'm enjoying right now:</p>
+          <p>Here are some of my favorite Books and Albums that I'm enjoying right now:</p>
           <div className="shelf">
             {/* Three Books */}
             <div className="shelf-item">
               <img src={intelligentInvestor} alt="The Intelligent Investor" />
-              <p>The Intelligent Investor</p>
+              <p>The Intelligent Investor Book by Benjamin Graham</p>
             </div>
             <div className="shelf-item">
               <img src={lastLecture} alt="The Last Lecture" />
-              <p>The Last Lecture</p>
+              <p>The Last Lecture Book by Jeffrey Zaslow and Randy Pausch</p>
             </div>
             <div className="shelf-item">
               <img src={pyschOfMoney} alt="The Psychology of Money" />
-              <p>The Psychology of Money</p>
+              <p>The Psychology of Money Book by Morgan Housel</p>
             </div>
 
             {/* Three Music Albums */}
             <div className="shelf-item">
               <img src={graduation} alt="Graduation" />
-              <p>Graduation</p>
+              <p>Graduation by Album Kanye West</p>
             </div>
             <div className="shelf-item">
               <img src={theNewAbnormal} alt="The New Abnormal" />
-              <p>The New Abnormal</p>
+              <p>The New Abnormal Album by the Strokes</p>
             </div>
             <div className="shelf-item">
               <img src={theQueenIsDead} alt="The Queen Is Dead" />
-              <p>The Queen Is Dead</p>
+              <p>The Queen Is Dead Album by the Smiths</p>
             </div>
           </div>
         </section>
