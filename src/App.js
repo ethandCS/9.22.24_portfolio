@@ -1,6 +1,15 @@
 import React from 'react';
 import './App.css';
 
+// Import images from the src/images folder
+import profilePic from './images/profilepic.jpg';
+import intelligentInvestor from './images/intelligentinvestor.jpg';
+import lastLecture from './images/lastlecture.jpg';
+import pyschOfMoney from './images/pyschofmoney.jpg';
+import graduation from './images/graduation.jpg';
+import theNewAbnormal from './images/thenewabnormal.jpg';
+import theQueenIsDead from './images/thequeenisdead.jpg';
+
 function App() {
   return (
     <div className="App">
@@ -9,7 +18,7 @@ function App() {
         <p>Welcome to my portfolio website built with React!</p>
 
         {/* Profile picture */}
-        <img src="public\images\profilepic.jpg." alt="Ethan Diaz" className="profile-picture" />
+        <img src={profilePic} alt="Ethan Diaz" className="profile-picture" />
 
         <section>
           <h2>Projects</h2>
@@ -67,29 +76,29 @@ function App() {
           <div className="shelf">
             {/* Three Books */}
             <div className="shelf-item">
-              <img src="/images/intelligentinvestor.jpg" alt="The Intelligent Investor" />
+              <img src={intelligentInvestor} alt="The Intelligent Investor" />
               <p>The Intelligent Investor</p>
             </div>
             <div className="shelf-item">
-              <img src="/images/lastlecture.jpg" alt="The Last Lecture" />
+              <img src={lastLecture} alt="The Last Lecture" />
               <p>The Last Lecture</p>
             </div>
             <div className="shelf-item">
-              <img src="/images/pyschofmoney.jpg" alt="The Psychology of Money" />
+              <img src={pyschOfMoney} alt="The Psychology of Money" />
               <p>The Psychology of Money</p>
             </div>
 
             {/* Three Music Albums */}
             <div className="shelf-item">
-              <img src="/images/graduation.jpg" alt="Graduation" />
+              <img src={graduation} alt="Graduation" />
               <p>Graduation</p>
             </div>
             <div className="shelf-item">
-              <img src="/images/thenewabnormal.jpg" alt="The New Abnormal" />
+              <img src={theNewAbnormal} alt="The New Abnormal" />
               <p>The New Abnormal</p>
             </div>
             <div className="shelf-item">
-              <img src="/images/thequeenisdead.jpg" alt="The Queen Is Dead" />
+              <img src={theQueenIsDead} alt="The Queen Is Dead" />
               <p>The Queen Is Dead</p>
             </div>
           </div>
