@@ -9,7 +9,7 @@ function App() {
         <p>Welcome to my portfolio website built with React!</p>
 
         {/* Profile picture */}
-        <img src="/images/profilepic.jpg" alt="Ethan Diaz" className="profile-picture" />
+        <img src="public\images\profilepic.jpg." alt="Ethan Diaz" className="profile-picture" />
 
         <section>
           <h2>Projects</h2>
