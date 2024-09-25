@@ -1,6 +1,8 @@
 // src/components/Home.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import profilePic from '../images/profilepic.jpg';
 import intelligentInvestor from '../images/intelligentinvestor.jpg';
 import lastLecture from '../images/lastlecture.jpg';

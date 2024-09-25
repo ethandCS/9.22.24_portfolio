@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-import FireCalculator from './fire-calculator/FireCalculator'; // Import the FIRE Calculator component
+import FireCalculator from './components/FireCalculator';
 
 function App() {
   return (
