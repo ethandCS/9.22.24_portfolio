@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/9.22.24_portfolio/static/css/main.5ec17695.css",
-    "main.js": "/9.22.24_portfolio/static/js/main.dd51abfb.js",
+    "main.js": "/9.22.24_portfolio/static/js/main.31f49c35.js",
     "static/js/453.1407b060.chunk.js": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/thequeenisdead.jpg": "/9.22.24_portfolio/static/media/thequeenisdead.c87d569615badb3137ef.jpg",
+    "static/media/profilepic.jpg": "/9.22.24_portfolio/static/media/profilepic.1ed687b104e4ecf04aff.jpg",
+    "static/media/thenewabnormal.jpg": "/9.22.24_portfolio/static/media/thenewabnormal.8c04d10308c773abdeae.jpg",
+    "static/media/pyschofmoney.jpg": "/9.22.24_portfolio/static/media/pyschofmoney.32cfcabcf7e2791e7109.jpg",
+    "static/media/graduation.jpg": "/9.22.24_portfolio/static/media/graduation.fc77c5c5e427df15ba9d.jpg",
+    "static/media/intelligentinvestor.jpg": "/9.22.24_portfolio/static/media/intelligentinvestor.7aa18ff24479397d3c85.jpg",
+    "static/media/lastlecture.jpg": "/9.22.24_portfolio/static/media/lastlecture.7628c5411bb1591807f9.jpg",
     "index.html": "/9.22.24_portfolio/index.html",
     "main.5ec17695.css.map": "/9.22.24_portfolio/static/css/main.5ec17695.css.map",
-    "main.dd51abfb.js.map": "/9.22.24_portfolio/static/js/main.dd51abfb.js.map",
+    "main.31f49c35.js.map": "/9.22.24_portfolio/static/js/main.31f49c35.js.map",
     "453.1407b060.chunk.js.map": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ec17695.css",
-    "static/js/main.dd51abfb.js"
+    "static/js/main.31f49c35.js"
   ]
 }
