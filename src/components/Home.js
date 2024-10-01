@@ -14,8 +14,8 @@ import theQueenIsDead from '../images/thequeenisdead.jpg';
 import linkedinLogo from '../images/linkedin-logo.png';
 import githubLogo from '../images/github-logo.png';
 import leetcodeLogo from '../images/leetcode-logo.png';
-import gmailLogo from '../images/gmail-logo.png';
-import phoneLogo from '../images/phone-logo.png';
+import gmailLogo from '../images/gmail-logo.png'; // not being used
+import phoneLogo from '../images/phone-logo.png'; // not being used
 import spotifyLogo from '../images/spotify-logo.png';
 
 function Home() {
@@ -40,8 +40,8 @@ function Home() {
           <a href="https://open.spotify.com/user/uyhxgnw7xpkmwudw308o09so4" target="_blank" rel="noopener noreferrer">
             <img src={spotifyLogo} alt="Spotify" className="logo" />
           </a>
-          <p>Gmail: diazethan488@gmail.com</p>
-          <p>Phone: +1 (657) 230-0701</p>
+          <p><a href="mailto:diazethan488@gmail.com">diazethan488@gmail.com</a></p>
+          <p><a href="tel:+16572300701">+1 (657) 230-0701</a></p>
         </div>
       </aside>
 

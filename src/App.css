@@ -9,11 +9,12 @@
   top: 20px;
   margin-right: 20px;
   flex-shrink: 0;
+  width: 150px; /* Adjust sidebar width */
 }
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
+  width: 100px; /* Smaller profile picture */
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -69,24 +70,24 @@
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0;
+  width: 50px; /* Reduced logo size */
+  height: 50px;
+  margin: 5px 0; /* Reduced margin */
 }
 
 .links-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.links-container p {
+  margin-top: 5px;
+  text-align: center;
 }
 
 .links-container a {
   display: inline-block;
-  margin-bottom: 10px; /* Add space between logos */
-}
-
-.links-container p {
-  margin-top: 10px;
-  text-align: center;
+  margin-bottom: 10px;
 }
