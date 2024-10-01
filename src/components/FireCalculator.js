@@ -139,10 +139,21 @@ function FireCalculator() {
           />
         </label>
       </div>
+  
       <button onClick={calculateGrowth}>Calculate</button>
+  
+      {/* Display growth rate information */}
+      <div className="growth-rates-info">
+        <h3>Growth Rates</h3>
+        <p><strong>Weak Growth:</strong> 3% annually</p>
+        <p><strong>Moderate Growth:</strong> 6% annually</p>
+        <p><strong>Strong Growth:</strong> 9% annually</p>
+      </div>
+  
       <div className="chart-container">
         <Line data={chartData} />
       </div>
+  
       <p>This is not official financial advice, merely a project.</p>
       <footer>
         <p>Created by Ethan Diaz</p>
