@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/9.22.24_portfolio/static/css/main.186469c5.css",
-    "main.js": "/9.22.24_portfolio/static/js/main.02c90c79.js",
+    "main.css": "/9.22.24_portfolio/static/css/main.fae20bda.css",
+    "main.js": "/9.22.24_portfolio/static/js/main.4ae53cfa.js",
     "static/js/453.1407b060.chunk.js": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js",
     "static/media/thequeenisdead.jpg": "/9.22.24_portfolio/static/media/thequeenisdead.c87d569615badb3137ef.jpg",
     "static/media/profilepic.jpg": "/9.22.24_portfolio/static/media/profilepic.1ed687b104e4ecf04aff.jpg",
@@ -17,12 +17,12 @@
     "static/media/spotify-logo.png": "/9.22.24_portfolio/static/media/spotify-logo.a05ad32d62caf686d30c.png",
     "static/media/linkedin-logo.png": "/9.22.24_portfolio/static/media/linkedin-logo.68ac41e1459436bfd38f.png",
     "index.html": "/9.22.24_portfolio/index.html",
-    "main.186469c5.css.map": "/9.22.24_portfolio/static/css/main.186469c5.css.map",
-    "main.02c90c79.js.map": "/9.22.24_portfolio/static/js/main.02c90c79.js.map",
+    "main.fae20bda.css.map": "/9.22.24_portfolio/static/css/main.fae20bda.css.map",
+    "main.4ae53cfa.js.map": "/9.22.24_portfolio/static/js/main.4ae53cfa.js.map",
     "453.1407b060.chunk.js.map": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.186469c5.css",
-    "static/js/main.02c90c79.js"
+    "static/css/main.fae20bda.css",
+    "static/js/main.4ae53cfa.js"
   ]
 }
