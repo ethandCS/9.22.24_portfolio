@@ -21,9 +21,32 @@ import spotifyLogo from '../images/spotify-logo.png';
 function Home() {
   return (
     <div className="home-container">
-      {/* Profile picture section */}
+      {/* Profile picture section with links under it */}
       <aside className="profile-section">
         <img src={profilePic} alt="Ethan Diaz" className="profile-picture" />
+        
+        {/* LINKS.ME Section */}
+        <h2>LINKS.ME</h2>
+        <div className="links-container">
+          <a href="https://www.linkedin.com/in/ethan-diaz-b8326926a/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinLogo} alt="LinkedIn" className="logo" />
+          </a>
+          <a href="https://github.com/ethandCS" target="_blank" rel="noopener noreferrer">
+            <img src={githubLogo} alt="GitHub" className="logo" />
+          </a>
+          <a href="https://leetcode.com/u/ethan__diaz/" target="_blank" rel="noopener noreferrer">
+            <img src={leetcodeLogo} alt="LeetCode" className="logo" />
+          </a>
+          <a href="mailto:diazethan488@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src={gmailLogo} alt="Gmail" className="logo" />
+          </a>
+          <a href="tel:+16572300701" target="_blank" rel="noopener noreferrer">
+            <img src={phoneLogo} alt="Phone" className="logo" />
+          </a>
+          <a href="https://open.spotify.com/user/uyhxgnw7xpkmwudw308o09so4" target="_blank" rel="noopener noreferrer">
+            <img src={spotifyLogo} alt="Spotify" className="logo" />
+          </a>
+        </div>
       </aside>
 
       {/* Main content section */}
@@ -37,31 +60,6 @@ function Home() {
           <p>
             Hi! I'm Ethan Diaz, a computer science student at California State University, Fullerton. I have a passion for software development and solving complex problems. I enjoy reading, swimming, and playing poker in my spare time. My professional experience includes working as an Associate Banker at J.P. Morgan Chase, where I honed my skills in leadership, problem-solving, and software applications.
           </p>
-        </section>
-
-        {/* LINKS.ME Section */}
-        <section>
-          <h2>LINKS.ME</h2>
-          <div className="links-container">
-            <a href="https://www.linkedin.com/in/ethan-diaz-b8326926a/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedinLogo} alt="LinkedIn" className="logo" />
-            </a>
-            <a href="https://github.com/ethandCS" target="_blank" rel="noopener noreferrer">
-              <img src={githubLogo} alt="GitHub" className="logo" />
-            </a>
-            <a href="https://leetcode.com/u/ethan__diaz/" target="_blank" rel="noopener noreferrer">
-              <img src={leetcodeLogo} alt="LeetCode" className="logo" />
-            </a>
-            <a href="mailto:diazethan488@gmail.com" target="_blank" rel="noopener noreferrer">
-              <img src={gmailLogo} alt="Gmail" className="logo" />
-            </a>
-            <a href="tel:+16572300701" target="_blank" rel="noopener noreferrer">
-              <img src={phoneLogo} alt="Phone" className="logo" />
-            </a>
-            <a href="https://open.spotify.com/user/uyhxgnw7xpkmwudw308o09so4" target="_blank" rel="noopener noreferrer">
-              <img src={spotifyLogo} alt="Spotify" className="logo" />
-            </a>
-          </div>
         </section>
 
         {/* SHELF.ME Section */}
