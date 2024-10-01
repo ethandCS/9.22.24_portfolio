@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/9.22.24_portfolio/static/css/main.8d8b87ff.css",
+    "main.css": "/9.22.24_portfolio/static/css/main.481a1f92.css",
     "main.js": "/9.22.24_portfolio/static/js/main.9b2ecdc6.js",
     "static/js/453.1407b060.chunk.js": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js",
     "static/media/thequeenisdead.jpg": "/9.22.24_portfolio/static/media/thequeenisdead.c87d569615badb3137ef.jpg",
@@ -11,12 +11,12 @@
     "static/media/intelligentinvestor.jpg": "/9.22.24_portfolio/static/media/intelligentinvestor.7aa18ff24479397d3c85.jpg",
     "static/media/lastlecture.jpg": "/9.22.24_portfolio/static/media/lastlecture.7628c5411bb1591807f9.jpg",
     "index.html": "/9.22.24_portfolio/index.html",
-    "main.8d8b87ff.css.map": "/9.22.24_portfolio/static/css/main.8d8b87ff.css.map",
+    "main.481a1f92.css.map": "/9.22.24_portfolio/static/css/main.481a1f92.css.map",
     "main.9b2ecdc6.js.map": "/9.22.24_portfolio/static/js/main.9b2ecdc6.js.map",
     "453.1407b060.chunk.js.map": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d8b87ff.css",
+    "static/css/main.481a1f92.css",
     "static/js/main.9b2ecdc6.js"
   ]
 }
