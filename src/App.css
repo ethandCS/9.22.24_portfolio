@@ -65,3 +65,19 @@
 .App-header nav a:hover {
   text-decoration: underline;
 }
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.links-to-me {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links-to-me li {
+  margin-bottom: 10px;
+}
