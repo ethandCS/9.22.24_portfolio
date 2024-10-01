@@ -37,17 +37,11 @@ function Home() {
           <a href="https://leetcode.com/u/ethan__diaz/" target="_blank" rel="noopener noreferrer">
             <img src={leetcodeLogo} alt="LeetCode" className="logo" />
           </a>
-          <div className="contact-item">
-            <img src={gmailLogo} alt="Gmail" className="logo" /> 
-            <span>diazethan488@gmail.com</span>
-          </div>
-          <div className="contact-item">
-            <img src={phoneLogo} alt="Phone" className="logo" /> 
-            <span>+1 (657) 230-0701</span>
-          </div>
           <a href="https://open.spotify.com/user/uyhxgnw7xpkmwudw308o09so4" target="_blank" rel="noopener noreferrer">
             <img src={spotifyLogo} alt="Spotify" className="logo" />
           </a>
+          <p>Gmail: diazethan488@gmail.com</p>
+          <p>Phone: +1 (657) 230-0701</p>
         </div>
       </aside>
 

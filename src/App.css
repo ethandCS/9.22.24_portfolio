@@ -69,28 +69,24 @@
 }
 
 .logo {
-  width: 60px; /* Increased the size horizontally */
+  width: 60px;
   height: 60px;
   margin: 10px 0;
 }
 
 .links-container {
   display: flex;
-  flex-direction: column; /* Arrange links vertically */
+  flex-direction: column;
   align-items: center;
   margin-top: 20px;
 }
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
-}
-
-.contact-item img {
-  margin-right: 10px;
-}
-
 .links-container a {
   display: inline-block;
+  margin-bottom: 10px; /* Add space between logos */
+}
+
+.links-container p {
+  margin-top: 10px;
+  text-align: center;
 }
