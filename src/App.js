@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import FireCalculator from './components/FireCalculator';
-import resume from './files/Ethan_Diaz_SWE_Resume.pdf'; // Import the resume file
 
 function App() {
   return (
