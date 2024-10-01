@@ -1,58 +1,37 @@
-.App {
-  text-align: center;
-  background-color: white; /* Set a plain white background */
-  color: black; /* Set text to black */
-  min-height: 100vh;
+.home-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
-.App-header {
-  font-size: 1.5rem;
+.profile-section {
+  position: sticky;
+  top: 20px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
-h1, h2 {
-  margin-bottom: 20px;
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-a {
-  color: blue; /* Standard link color */
-  text-decoration: none;
-}
-
-a:visited {
-  color: purple; /* Standard visited link color */
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.profile-picture, .shelf-item img {
-  border: none; /* Remove image styling */
-}
-
-body {
-  font-size: 14px;
-  background-color: white; /* Default white background */
+.content-section {
+  flex: 1;
 }
 
 .shelf {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create responsive grid */
-  gap: 20px; /* Add space between items */
-  justify-items: center; /* Center items */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
   margin-top: 40px;
 }
 
 .shelf-item {
-  background-color: #f9f9f9; /* Set light background for shelf items */
+  background-color: #f9f9f9;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
@@ -69,4 +48,20 @@ body {
 .shelf-item p {
   margin-top: 10px;
   font-size: 1rem;
+}
+
+.App-header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.App-header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+.App-header nav a:hover {
+  text-decoration: underline;
 }
