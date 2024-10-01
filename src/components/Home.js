@@ -35,7 +35,10 @@ function Home() {
             </li>
             <li>
               <strong>FIRE Calculator</strong>: A web app to calculate the timeline for financial independence.
-              <Link to="/calculator">Try FIRE Calculator</Link>
+              <Link to="/calculator">Try FIRE Calculator</Link> | 
+              <a href="https://github.com/ethandCS/FIRE_Calculator" target="_blank" rel="noopener noreferrer">
+                GitHub Repo
+              </a>
             </li>
           </ul>
         </section>

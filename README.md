@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Ethan Diaz's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! Here, you'll find my latest projects, work experiences, and more about me.
 
-## Available Scripts
+## About Me
 
-In the project directory, you can run:
+**Location:** Yorba Linda, California  
+**Email:** [diazethan488@gmail.com](mailto:diazethan488@gmail.com)  
+**Portfolio:** [https://ethandcs.github.io/9.22.24_portfolio/](https://ethandcs.github.io/9.22.24_portfolio/)
 
-### `npm start`
+I'm currently pursuing a Bachelor of Computer Science at California State University, Fullerton, expected to graduate in May 2026. I have also completed the CS50x Introduction to Computer Science Certificate from HarvardX in December 2023.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Work Experience
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **J.P. Morgan Chase Bank** - Associate Banker (Sep 2022 - Present)
+  - Proficient in utilizing complex systems for client transactions.
+  - Provided software guidance to peers, improving team efficiency.
 
-### `npm test`
+- **Avalon Bagels** - Shift Lead (June 2021 - Sep 2022)
+  - Led the integration of a digital cash register system to enhance efficiency.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Projects
 
-### `npm run build`
+- [**Automated Email Checker**](https://github.com/ethandCS/Automated_Email_Checker): A Python tool that retrieves unread emails using IMAP and summarizes emails using OpenAI GPT.
+- [**FIRE Calculator**](https://github.com/ethandCS/FIRE_Calculator): A React-based financial independence calculator with dynamic Chart.js graphs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Skills
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Languages**: C, C++, Python, Java, SQL, HTML
+- **Frameworks & Tools**: React, Flask, Git, Chart.js, REST API, Google OAuth 2.0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact Information
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LinkedIn**: [Ethan Diaz](https://www.linkedin.com/in/ethan-diaz-b8326926a/)
+- **GitHub**: [ethandCS](https://github.com/ethandCS)
+- **LeetCode**: [ethan__diaz](https://leetcode.com/u/ethan__diaz/)
+- **Email**: [diazethan488@gmail.com](mailto:diazethan488@gmail.com)
