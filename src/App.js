@@ -16,7 +16,7 @@ function App() {
             <a href="https://github.com/ethandCS/9.22.24_portfolio" target="_blank" rel="noopener noreferrer">
               Portfolio Repo
             </a> | 
-            <a href="/Ethan_Diaz_SWE_Resume.pdf" download="Ethan_Diaz_SWE_Resume.pdf">
+            <a href="/9.22.24_portfolio/Ethan_Diaz_SWE_Resume.pdf" download="Ethan_Diaz_SWE_Resume.pdf">
               Download Resume
             </a>
           </nav>
