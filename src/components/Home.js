@@ -21,7 +21,7 @@ import spotifyLogo from '../images/spotify-logo.png';
 function Home() {
   return (
     <div className="home-container">
-      {/* Profile picture section with links under it */}
+      {/* Profile picture section */}
       <aside className="profile-section">
         <img src={profilePic} alt="Ethan Diaz" className="profile-picture" />
         
@@ -37,12 +37,14 @@ function Home() {
           <a href="https://leetcode.com/u/ethan__diaz/" target="_blank" rel="noopener noreferrer">
             <img src={leetcodeLogo} alt="LeetCode" className="logo" />
           </a>
-          <a href="mailto:diazethan488@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img src={gmailLogo} alt="Gmail" className="logo" />
-          </a>
-          <a href="tel:+16572300701" target="_blank" rel="noopener noreferrer">
-            <img src={phoneLogo} alt="Phone" className="logo" />
-          </a>
+          <div className="contact-item">
+            <img src={gmailLogo} alt="Gmail" className="logo" /> 
+            <span>diazethan488@gmail.com</span>
+          </div>
+          <div className="contact-item">
+            <img src={phoneLogo} alt="Phone" className="logo" /> 
+            <span>+1 (657) 230-0701</span>
+          </div>
           <a href="https://open.spotify.com/user/uyhxgnw7xpkmwudw308o09so4" target="_blank" rel="noopener noreferrer">
             <img src={spotifyLogo} alt="Spotify" className="logo" />
           </a>
