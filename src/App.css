@@ -1,16 +1,15 @@
 .App {
   text-align: center;
-  background-color: #478d6b;
-  color: white;
+  background-color: white; /* Set a plain white background */
+  color: black; /* Set text to black */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .App-header {
-  font-size: 1.5rem; /* Reduce the font size */
+  font-size: 1.5rem;
 }
 
 h1, h2 {
@@ -22,58 +21,24 @@ ul {
   padding: 0;
 }
 
-/* Links Styling */
 a {
-  color: #00ccff; /* Keep link color consistent */
+  color: blue; /* Standard link color */
   text-decoration: none;
 }
 
 a:visited {
-  color: #00ccff; /* Make sure visited links stay the same color */
+  color: purple; /* Standard visited link color */
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.profile-picture {
-  width: 120px; /* Reduce profile picture size */
-  height: 120px;
-  border-radius: 50%;
-  margin-top: 20px;
-  object-fit: cover;
+.profile-picture, .shelf-item img {
+  border: none; /* Remove image styling */
 }
 
-.shelf {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 40px;
-}
-
-.shelf-item {
-  background-color: #ffffff22;
-  padding: 10px;
-  border-radius: 8px;
-  width: 150px;
-  text-align: center;
-}
-
-.shelf-item img {
-  width: 100%;
-  height: 150px; /* Reduce height */
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.shelf-item p {
-  margin-top: 10px;
-  font-size: 1rem;
-  color: #fff;
-}
-
-/* Smaller overall font size */
 body {
-  font-size: 14px; /* Reduce font size for the whole page */
+  font-size: 14px;
+  background-color: white; /* Default white background */
 }
