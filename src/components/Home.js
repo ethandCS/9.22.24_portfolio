@@ -47,7 +47,7 @@ function Home() {
         <p>Welcome to my portfolio website built with React!</p>
 
         {/* READ.ME Section */}
-        <section>
+        <section className="main-text">
           <h2>READ.ME</h2>
           <p>
             Hi! I'm Ethan Diaz, a computer science student at California State University, Fullerton. I have a passion for software development and solving complex problems. I enjoy reading, swimming, and playing poker in my spare time. My professional experience includes working as an Associate Banker at J.P. Morgan Chase, where I honed my skills in leadership, problem-solving, and software applications.
@@ -55,7 +55,7 @@ function Home() {
         </section>
 
         {/* PROJECTS.ME Section */}
-        <section>
+        <section className="main-text">
           <h2>PROJECTS.ME</h2>
           <ul>
             <li>
@@ -75,7 +75,7 @@ function Home() {
         </section>
 
         {/* SHELF.ME Section */}
-        <section>
+        <section className="main-text">
           <h2>SHELF.ME</h2>
           <p>Here are some of my favorite Books and Albums that I'm enjoying right now:</p>
           <div className="shelf">

@@ -10,6 +10,7 @@
   margin-right: 20px;
   flex-shrink: 0;
   width: 150px; /* Adjust sidebar width */
+  text-align: center; /* Center the sidebar content */
 }
 
 .profile-picture {
@@ -17,6 +18,7 @@
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 10px; /* Add spacing below the profile picture */
 }
 
 .content-section {
@@ -71,11 +73,11 @@
 
 /* Circular Logos */
 .logo {
-  width: 50px; /* Adjust the size to be a little smaller */
+  width: 50px;
   height: 50px;
   margin: 5px 0;
-  border-radius: 50%; /* Make the logos circular */
-  object-fit: cover; /* Ensure the logo fits well inside the circle */
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .links-container {
@@ -95,16 +97,8 @@
   margin-bottom: 10px;
 }
 
-/* Increase font size for small plain text */
-body {
-  font-size: 16px; /* Global font size for all text */
+/* Only increase the font size for main page and calculator text */
+.main-text, .calculator-text {
+  font-size: 1.2rem; /* Increase for main content */
 }
 
-/* Specifically increase for smaller paragraphs, lists, or non-heading text */
-p, li {
-  font-size: 1.1rem; /* Increase the size slightly for small plain text */
-}
-
-.links-container p, .shelf-item p {
-  font-size: 1.05rem; /* Smaller increase for the sidebar links and shelf text */
-}
