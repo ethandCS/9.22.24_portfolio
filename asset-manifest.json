@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/9.22.24_portfolio/static/css/main.1170b9a4.css",
+    "main.css": "/9.22.24_portfolio/static/css/main.f8d6c4f0.css",
     "main.js": "/9.22.24_portfolio/static/js/main.a96ea8d6.js",
     "static/js/453.1407b060.chunk.js": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js",
     "static/media/thequeenisdead.jpg": "/9.22.24_portfolio/static/media/thequeenisdead.c87d569615badb3137ef.jpg",
@@ -15,12 +15,12 @@
     "static/media/spotify-logo.png": "/9.22.24_portfolio/static/media/spotify-logo.a05ad32d62caf686d30c.png",
     "static/media/linkedin-logo.png": "/9.22.24_portfolio/static/media/linkedin-logo.68ac41e1459436bfd38f.png",
     "index.html": "/9.22.24_portfolio/index.html",
-    "main.1170b9a4.css.map": "/9.22.24_portfolio/static/css/main.1170b9a4.css.map",
+    "main.f8d6c4f0.css.map": "/9.22.24_portfolio/static/css/main.f8d6c4f0.css.map",
     "main.a96ea8d6.js.map": "/9.22.24_portfolio/static/js/main.a96ea8d6.js.map",
     "453.1407b060.chunk.js.map": "/9.22.24_portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1170b9a4.css",
+    "static/css/main.f8d6c4f0.css",
     "static/js/main.a96ea8d6.js"
   ]
 }
