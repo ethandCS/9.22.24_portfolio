@@ -69,10 +69,13 @@
   text-decoration: underline;
 }
 
+/* Circular Logos */
 .logo {
-  width: 50px; /* Reduced logo size */
+  width: 50px; /* Adjust the size to be a little smaller */
   height: 50px;
-  margin: 5px 0; /* Reduced margin */
+  margin: 5px 0;
+  border-radius: 50%; /* Make the logos circular */
+  object-fit: cover; /* Ensure the logo fits well inside the circle */
 }
 
 .links-container {

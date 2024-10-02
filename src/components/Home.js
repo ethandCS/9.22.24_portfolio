@@ -1,5 +1,3 @@
-// src/components/Home.js
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -14,8 +12,6 @@ import theQueenIsDead from '../images/thequeenisdead.jpg';
 import linkedinLogo from '../images/linkedin-logo.png';
 import githubLogo from '../images/github-logo.png';
 import leetcodeLogo from '../images/leetcode-logo.png';
-import gmailLogo from '../images/gmail-logo.png'; // not being used
-import phoneLogo from '../images/phone-logo.png'; // not being used
 import spotifyLogo from '../images/spotify-logo.png';
 
 function Home() {
@@ -73,7 +69,6 @@ function Home() {
               <a href="https://github.com/ethandCS/FIRE_Calculator" target="_blank" rel="noopener noreferrer">
                 View Repo
               </a> | 
-              {/* Replace external link with internal routing */}
               <Link to="/FIRE_CALCULATOR">Try FIRE Calculator</Link>
             </li>
           </ul>

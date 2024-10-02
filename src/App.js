@@ -1,14 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import FireCalculator from './components/FireCalculator';
 
 function App() {
   return (
-    <Router basename="/9.22.24_portfolio">
+    <Router>
       <div className="App">
-        {/* Header with portfolio repo and resume download */}
         <header className="App-header">
           <nav>
             <Link to="/">Home</Link> | 
@@ -22,7 +21,6 @@ function App() {
           </nav>
         </header>
 
-        {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/FIRE_CALCULATOR" element={<FireCalculator />} />
