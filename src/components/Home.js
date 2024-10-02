@@ -73,9 +73,8 @@ function Home() {
               <a href="https://github.com/ethandCS/FIRE_Calculator" target="_blank" rel="noopener noreferrer">
                 View Repo
               </a> | 
-              <a href="https://ethandcs.github.io/FIRE_Calculator" target="_blank" rel="noopener noreferrer">
-                Try FIRE Calculator
-              </a>
+              {/* Replace external link with internal routing */}
+              <Link to="/FIRE_CALCULATOR">Try FIRE Calculator</Link>
             </li>
           </ul>
         </section>
