@@ -12,7 +12,7 @@ function App() {
         <header className="App-header">
           <nav>
             <Link to="/">Home</Link> | 
-            <Link to="/calculator">FIRE Calculator</Link> | 
+            <Link to="/FIRE_CALCULATOR">FIRE Calculator</Link> | 
             <a href="https://github.com/ethandCS/9.22.24_portfolio" target="_blank" rel="noopener noreferrer">
               Portfolio Repo
             </a> | 
@@ -25,7 +25,7 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/calculator" element={<FireCalculator />} />
+          <Route path="/FIRE_CALCULATOR" element={<FireCalculator />} />
         </Routes>
       </div>
     </Router>
