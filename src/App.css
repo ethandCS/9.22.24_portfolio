@@ -94,3 +94,17 @@
   display: inline-block;
   margin-bottom: 10px;
 }
+
+/* Increase font size for small plain text */
+body {
+  font-size: 16px; /* Global font size for all text */
+}
+
+/* Specifically increase for smaller paragraphs, lists, or non-heading text */
+p, li {
+  font-size: 1.1rem; /* Increase the size slightly for small plain text */
+}
+
+.links-container p, .shelf-item p {
+  font-size: 1.05rem; /* Smaller increase for the sidebar links and shelf text */
+}
