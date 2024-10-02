@@ -58,6 +58,28 @@ function Home() {
           </p>
         </section>
 
+        {/* PROJECTS.ME Section */}
+        <section>
+          <h2>PROJECTS.ME</h2>
+          <ul>
+            <li>
+              <strong>Automated Email Checker</strong>: Python-based program to automatically check incoming Gmail.
+              <a href="https://github.com/ethandCS/Automated_Email_Checker" target="_blank" rel="noopener noreferrer">
+                View Repo
+              </a>
+            </li>
+            <li>
+              <strong>FIRE Calculator</strong>: Web app for calculating the timeline for Financial Independence and Early Retirement (FIRE).
+              <a href="https://github.com/ethandCS/FIRE_Calculator" target="_blank" rel="noopener noreferrer">
+                View Repo
+              </a> | 
+              <a href="https://ethandcs.github.io/FIRE_Calculator" target="_blank" rel="noopener noreferrer">
+                Try FIRE Calculator
+              </a>
+            </li>
+          </ul>
+        </section>
+
         {/* SHELF.ME Section */}
         <section>
           <h2>SHELF.ME</h2>
