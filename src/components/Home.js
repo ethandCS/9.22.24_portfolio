@@ -58,6 +58,18 @@ function Home() {
         <section className="main-text">
           <h2>PROJECTS.ME</h2>
           <ul>
+            {/* Add Stock Market Ticker project */}
+            <li>
+              <strong>Stock Market Ticker</strong>: Web app to fetch and display stock data using React and Flask.
+              <a href="https://github.com/ethandCS/stock-market-ticker" target="_blank" rel="noopener noreferrer">
+                View Repo
+              </a> |
+              <a href="http://stock-market-ticker-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Try Stock Market Ticker
+              </a>
+            </li>
+            
+            {/* Existing projects */}
             <li>
               <strong>Automated Email Checker</strong>: Python-based program to automatically check incoming Gmail.
               <a href="https://github.com/ethandCS/Automated_Email_Checker" target="_blank" rel="noopener noreferrer">
